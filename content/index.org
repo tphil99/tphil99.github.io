@@ -6,6 +6,10 @@ This is a basic *static* website
 
 Let me write a matrix: \(\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \)
 
+In my org files, I wrote a number of essays
+
+About me
+
 - [X] This is the first point
 - [X] This is the second  
 
@@ -18,5 +22,3 @@ print("hello")
 #+end_src
 
 [[file:about-me.org][about me]]
-
-[[file:about-me.org][about me 2]]
