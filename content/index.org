@@ -6,8 +6,8 @@ This is a basic *static* website
 
 Let me write a matrix: \(\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \)
 
-- [ ] This is the first point
-- [ ] This is the second  
+- [X] This is the first point
+- [X] This is the second  
 
 #+begin_src python
 print("hello")
