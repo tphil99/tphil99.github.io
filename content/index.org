@@ -1,24 +1,5 @@
 #+title: Org mode website
 
-* Overview
+- [[file:about-me.org][About me]]
+- [[file:technologies.org][Programming languages]]
 
-This is a basic *static* website
-
-Let me write a matrix: \(\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \)
-
-In my org files, I wrote a number of essays
-
-About me
-
-- [X] This is the first point
-- [X] This is the second  
-
-#+begin_src python
-print("hello")
-#+end_src
-
-#+begin_src emacs-lisp
-(message "nice")
-#+end_src
-
-[[file:about-me.org][about me]]
