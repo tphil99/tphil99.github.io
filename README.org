@@ -1,5 +1,9 @@
 
 * How I built this site
 
-
+- In ~./content/~ write some ~.org~ files, which can have file-based links between them.
+- Run build.sh, which runs build-site.el
+- Any emacs packages used are downloaded into ~./.packages~
+- The ~html~ files are saved in ~./public/~ 
+- JamesIves github action automates this process  
 
