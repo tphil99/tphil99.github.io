@@ -7,16 +7,13 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out
+      - name: Checkout
         uses: actions/checkout@v1
-
-      - name: Install Emacs
+      - name: Install
         run: sudo apt install emacs-nox --yes
-
-      - name: Build the site
+      - name: Build
         run: ./build.sh
-
-      - name: Publish generated content to GitHub Pages
+      - name: Publish
         uses: JamesIves/github-pages-deploy-action@v4.7.3
         with:
           folder: public
