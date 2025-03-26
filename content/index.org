@@ -1,0 +1,20 @@
+#+title: Org mode website
+
+* Overview
+
+This is a basic *static* website
+
+- [ ] This is the first point
+- [ ] This is the second  
+
+#+begin_src python
+print("hello")
+#+end_src
+
+#+begin_src emacs-lisp
+(message "nice")
+#+end_src
+
+[[file:about-me.org][about me]]
+
+[[file:about-me.org][about me 2]]
